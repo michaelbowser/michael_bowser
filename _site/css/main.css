@@ -51,7 +51,7 @@ a img {
 }
 /* END RESET*/
 
-/* GLOBAL STYLES */
+/* MEDIA STYLES */
 @media (max-width: 800px) {
   html {
     box-shadow: none;
@@ -118,7 +118,9 @@ a img {
 .gallery .gallery-info {
   flex: 1;
 } 
-}
+} /*END MEDIA STYLES*/ 
+/*GLOBAL STYLES*/
+
 html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
