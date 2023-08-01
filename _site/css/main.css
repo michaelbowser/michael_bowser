@@ -52,6 +52,12 @@ a img {
 /* END RESET*/
 
 /* GLOBAL STYLES */
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+}
 html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
@@ -98,7 +104,7 @@ h2 ~ p {
   box-sizing: border-box;
   display:block;
   height: 10vh;
-  left: -30px;
+  left: auto;
   padding-top: 10px;
   position: relative;
   text-align: center;
@@ -113,21 +119,21 @@ h2 ~ p {
 }
 .header-nav {
   float: right;
-  padding: 5.5vh 60px 0 0;
+  padding: 2vh 1em 0 0;
 }
 .header-nav > li {
   display: inline-block;
-  margin-left: 1em;
+  margin-left: 0.25em;
 }
 .header-nav > li ~ li {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
-  padding-left: 1em;
+  padding-left: 0.25em;
 }
 .header-nav a {
   color: #fff;
 }
 .nav-links a {
-  font-size: 0.8rem;
+  font-size: 3.25vw;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
